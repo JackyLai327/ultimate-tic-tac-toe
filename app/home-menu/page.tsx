@@ -6,8 +6,8 @@ const HomeMenu = () => {
   return (
     <div className=''>
       <div>Ultimate Tic Tac Toe</div>
-      <Link href="/game-offline" className=''><div>Play Offline</div></Link>
-      <Link href="/game-online"><div>Play Online</div></Link>
+      <Link href="/game/game-offline"><div>Play Offline</div></Link>
+      <div className='cursor-not-allowed opacity-70'><div>Play Online</div></div>
     </div>
   )
 }
