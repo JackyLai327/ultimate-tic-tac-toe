@@ -1,0 +1,45 @@
+.cellSize {
+    max-width: 8vh;
+    min-width: 8vh;
+    max-height: 8vh;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topLeft {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#topRight {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#botLeft {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#botRight {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#top {
+    border-bottom: 1px solid black;
+}
+
+#bot {
+    border-top: 1px solid black;
+}
+
+#left {
+    border-right: 1px solid black;
+}
+
+#right {
+    border-left: 1px solid black;
+}
